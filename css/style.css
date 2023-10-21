@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap');
+
+
+:root {
+    --bg: #B6FFFA;
+    --bg-1: #98E4FF;
+    --bg-component: #80B3FF;
+    --bg-font: #000;
+    --bg-hover: #525252;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--bg);
+}
+
+.navbar {
+    background-color: var(--bg-component);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.row {
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+}
+
+.pilih-surat {
+    background-color: var(--bg-1);
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.pilih-surat h2 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.pilih-surat p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+.pilih-surat:hover {
+    background-color: var(--bg-component);
+}
+
+.hero {
+    padding-top: 7rem;
+}
+
+.info-surat {
+    background-color: var(--bg-1);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.cards {
+    background-color: var(--bg-1);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+
+.btn-pause {
+    display: none;
+}
+
+.btn-play {
+    display: block;
+}
+
+.footer {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1rem;
+    background-color: var(--bg-component);
+}
+
+.nav-link {
+    color: var(--bg-font);
+    transition: all .5s;
+}
+
+.nav-link:hover {
+    color: var(--bg-hover);
+}
