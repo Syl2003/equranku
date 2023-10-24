@@ -40,6 +40,9 @@ async function getJadwal() {
     document.querySelector('.maghrib').textContent = data.maghrib;
     document.querySelector('.isya').textContent = data.isya;
     document.querySelector('.tanggal').textContent = data.tanggal;
+    
+    const dataWaktu = new Date();
+    document.querySelector('#tahun').innerHTML = dataWaktu.getFullYear();
 }
 
 // lokasi 
