@@ -84,3 +84,7 @@ body {
 .nav-link:hover {
     color: var(--bg-hover);
 }
+
+.card-list {
+    display: none;
+}
